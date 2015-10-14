@@ -1,2 +1,3 @@
-# footy-badges-ui
-Badge UI for Footy
+# achievement-badges-ui
+
+Achievement Badges UI
