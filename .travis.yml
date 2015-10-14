@@ -1,0 +1,32 @@
+#
+# @version 1.0.0
+#
+# @copyright (c) 2015 SoccerNorth
+#
+
+# enable container based infrastructure
+# @see http://docs.travis-ci.com/user/migrating-from-legacy/#How-can-I-use-container-based-infrastructure%3F
+sudo: false
+
+language: node_js
+
+node_js:
+  - '0.10'
+
+# caching both the downloaded packages and the build directories for npm and bower
+# http://docs.travis-ci.com/user/caching/#How-does-the-caching-work%3F
+cache:
+  directories:
+    - $HOME/build/soccernorth/achievement-badges-ui/app/bower_components
+
+install:
+  - 'bower install'
+
+notifications:
+  email:
+    recipients:
+      - soccernorth2015@gmail.com
+    on_success: change
+    on_failure: always
+
+# EOF
