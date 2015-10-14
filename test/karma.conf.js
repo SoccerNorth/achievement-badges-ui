@@ -36,13 +36,11 @@ module.exports = function (config)
                 'app/bower_components/angular-ui-router/release/angular-ui-router.js',
                 'app/bower_components/angular-ui-sortable/sortable.js',
                 'app/bower_components/fastclick/lib/fastclick.js',
-                'app/bower_components/react/react.js',
                 'app/bower_components/angular-smart-table/dist/smart-table.js',
                 'app/scripts/**/*.js',
                 'test/spec/**/*.js',
                 'app/bower_components/cookies-js/src/*.js',
                 'app/bower_components/toastr/toastr.js',
-                'app/bower_components/angular-dragdrop/src/angular-dragdrop.js',
                 'app/bower_components/angulartics/dist/angulartics.min.js',
                 'app/bower_components/angulartics-google-analytics/dist/angulartics-google-analytics.min.js'
             ],
