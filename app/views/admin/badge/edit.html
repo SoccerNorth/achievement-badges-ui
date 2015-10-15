@@ -8,10 +8,39 @@
  @copyright (c) 2015 SoccerNorth
 -->
 
+
 <h3>Edit Badge</h3>
 
-Response:
+<div class="col-md-9 col-sm-12 col-xs-12">
 
-<p>
-<pre>{{badgeResponse}}</pre>
-</p>
+    <div class="fields-container">
+
+        <!-- Label -->
+        <div class="form-group col-md-4">
+            <label for="badgeLabel">Label</label>
+            <input type="text" data-ng-model="badge.label" class="form-control" id="badgeLabel" placeholder="Label">
+        </div>
+
+    </div>
+</div>
+
+<div class="col-md-9 col-sm-12 col-xs-12">
+
+    <div class="fields-container">
+
+        <!-- Description -->
+        <div class="form-group col-md-4">
+            <label for="badgeDescription">Description</label>
+        <textarea id="badgeDescription" data-ng-model="badge.description" class="form-control" rows="2"
+                  placeholder="Description" style="resize: none;"></textarea>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="col-xs-12 col-md-12 row button-wrapper">
+    <a class="btn btn-primary"
+       data-ng-href="#">Save Item</a>
+</div>
