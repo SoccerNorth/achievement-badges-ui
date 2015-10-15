@@ -1,3 +1,3 @@
 # achievement-badges-ui
 
-Achievement Badges UI
+[![Build Status: master](https://travis-ci.org/SoccerNorth/achievement-badges-ui.svg)](https://travis-ci.org/SoccerNorth/achievement-badges-ui)
