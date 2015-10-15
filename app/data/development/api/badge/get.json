@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "badge_01",
+      "label": "Achievement Badge #1",
+      "imageUrl": "data/development/images/badges/badge01.jpg",
+      "description": "This is badge #1"
+    },
+    {
+      "id": "badge_02",
+      "label": "Achievement Badge #2",
+      "imageUrl": "data/development/images/badges/badge02.png",
+      "description": "This is badge #2"
+    },
+    {
+      "id": "badge_03",
+      "label": "Achievement Badge #3",
+      "imageUrl": "data/development/images/badges/badge03.jpg",
+      "description": "This is badge #3"
+    },
+    {
+      "id": "badge_04",
+      "label": "Achievement Badge #4",
+      "imageUrl": "data/development/images/badges/badge04.png",
+      "description": "This is badge #4"
+    },
+    {
+      "id": "badge_05",
+      "label": "Achievement Badge #5",
+      "imageUrl": "data/development/images/badges/badge05.png",
+      "description": "This is badge #5"
+    }
+  ],
+  "status": {
+    "code": 200
+  }
+}

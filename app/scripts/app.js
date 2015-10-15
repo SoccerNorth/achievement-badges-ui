@@ -74,14 +74,21 @@ angular.module(
                 }
             )
 
-                // Add Inventory Page
                 .state(
                 'achievementBadgesUI.home', {
                     url: '/home',
                     templateUrl: 'views/home.html',
                     controller: 'HomeController'
                 }
-            );
+            )
+
+                .state(
+                'achievementBadgesUI.adminEditBadge', {
+                    url: '/admin/badge/edit',
+                    templateUrl: 'views/admin/badge/edit.html',
+                    controller: 'BadgeController'
+                }
+            )
 
 
         }
